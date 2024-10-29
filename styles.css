@@ -34,6 +34,7 @@
     font-size:25px;
     margin-top:80px;
 }
+<<<<<<< HEAD
 .button{
     background-color: rgb(39, 62, 43);
     color:antiquewhite;
@@ -44,4 +45,78 @@
     height:50px;
     border-radius: 10%;
     border-color: antiquewhite;
+=======}
+.h1{
+    font-size:xx-large; text-align: center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:antiquewhite; margin-top: 50px;
+}
+#box1{
+    display: inline-block;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left:  150px;
+    color: antiquewhite;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#box2{
+    display: inline-block;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left:  250px;
+    color: antiquewhite;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#box3{
+    display: inline-block;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left:  250px;
+    color: antiquewhite;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#box4{
+    display: inline-block;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left:  250px;
+    color: antiquewhite;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#box5{
+    width: 300px;
+    height: 400px;
+    border-radius: 10%;
+background-color: antiquewhite;
+display: inline-block;
+margin-right: 70px;
+margin-left:50px
+}
+#box6{
+    width: 300px;
+    height: 400px;
+    border-radius: 10%;
+background-color: antiquewhite;
+display: inline-block;
+margin-right: 70px;
+}
+#box7{
+    width: 300px;
+    height: 400px;
+    border-radius: 10%;
+background-color: antiquewhite;
+display: inline-block;
+margin-right: 70px;
+}
+#box8{
+    width: 300px;
+    height: 400px;
+    border-radius: 10%;
+background-color: antiquewhite;
+display: inline-block;
+margin-right: 30px;
+>>>>>>> ceea464b43d3706e01062c86b3939c7926c3403b
 }
