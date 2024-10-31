@@ -1,0 +1,32 @@
+.Line1{
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(39, 62, 43);
+    text-align: center;
+    margin-top: 100px;
+    color:antiquewhite;
+    height: 200px
+}
+*{
+    background-color: rgb(122,137,95);
+}
+.Line2{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:antiquewhite;
+    text-align: center;
+    margin-top: 70px
+}
+.button{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(39, 62, 43);
+    color:antiquewhite;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width:100px;
+    height:70px;
+    font-size: 30px;
+   margin-left:700px;
+   margin-top: 50px}
