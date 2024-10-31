@@ -34,7 +34,7 @@
     font-size:25px;
     margin-top:80px;
 }
-<<<<<<< HEAD
+
 .button{
     background-color: rgb(39, 62, 43);
     color:antiquewhite;
@@ -45,7 +45,7 @@
     height:50px;
     border-radius: 10%;
     border-color: antiquewhite;
-=======}
+}
 .h1{
     font-size:xx-large; text-align: center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:antiquewhite; margin-top: 50px;
@@ -118,5 +118,4 @@ margin-right: 70px;
 background-color: antiquewhite;
 display: inline-block;
 margin-right: 30px;
->>>>>>> ceea464b43d3706e01062c86b3939c7926c3403b
 }
