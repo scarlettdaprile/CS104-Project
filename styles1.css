@@ -27,7 +27,8 @@ div{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:75px;
     width:500px;
-    margin-left:400px;
+   margin-left:400px;
+  
 }
 .mission-statement{
     text-align:center;
@@ -96,6 +97,7 @@ button{
     cursor:pointer;
     transition-duration:2s;
    
+   
 }
 button:hover{
     transform:scale(2);
@@ -113,19 +115,16 @@ button:hover{
    
 }
 .navbar{
-    display:flex;
+
     list-style-type: none;
-    position:sticky;
-    background-color: rgb(39, 62, 43);
-    z-index:1;
-   
+    margin:0;
 }
+
+
 .navbar li{
     margin-left:80px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:25px;
-    top:50px;
-   
     
    
 }
