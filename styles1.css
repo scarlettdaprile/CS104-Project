@@ -1,5 +1,6 @@
 *{
-    background-color: rgb(122,137,95);   
+    background-color: rgb(122,137,95);
+    
 }
 body{
     position:relative;
@@ -7,15 +8,18 @@ body{
 div{
     height:150px;
     width:150px;
+
 }
+
 .heading{
     position: fixed;
     background-color: rgb(39, 62, 43);
     top:0px;
     left:0px;
     width: 100vw;
+    border: 2px, antiquewhite, dashed;
     text-align:center;
-    padding-top: 10px;
+   
 }
 .box1{
     background-color: rgb(39, 62, 43);
@@ -23,30 +27,38 @@ div{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:75px;
     width:500px;
-   margin-left:500px;
+   margin-left:400px;
+  
 }
 .mission-statement{
     text-align:center;
     font-size:40px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:antiquewhite;
+    color:rgb(88, 19, 2);
+    top:200px;
     width:500px;
-    margin-left:900px;
+    margin-left:400px;
 }
 .box2{
     text-align:center;
     font-size:50px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:antiquewhite;
+   
+   
 }
 li{
     text-align:center;
     font-size:25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(39, 62, 43);
+<<<<<<< HEAD
     list-style: none;
     text-decoration: none;
     display: inline
+=======
+ 
+>>>>>>> parent of 2f09e78 (nav bar)
 }
 #names{
     text-align:center;
@@ -60,12 +72,18 @@ li{
     display:block;
     margin-left:35%;
     margin-top:20px;
+
+
 }
+
+
 #first{
     color:rgb(39, 62, 43);
     background-color:white;
     padding:20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+   
 }
 #last{
     color:rgb(39, 62, 43);
@@ -83,21 +101,26 @@ button{
     border-radius: 4px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     cursor:pointer;
-    transition-duration:2s;  
+    transition-duration:2s;
+   
+   
 }
 button:hover{
-    transform:scale(1.2);
+    transform:scale(2);
+
+
 }
 .logo{
     margin-top:250px;
-     margin-left:100px;
+     margin-left:320px;
     background-image:url('Screenshot (41).png');
     background-size:cover;
     width:600px;
     height:400px;
     position:static;
-    border-radius: 50%;   
+   
 }
+<<<<<<< HEAD
 #navbar {
     display: flex;
     vertical-align: middle;
@@ -123,4 +146,20 @@ button:hover{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px
   }
+=======
+.navbar{
+
+    list-style-type: none;
+    margin:0;
+}
+
+
+.navbar li{
+    margin-left:80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:25px;
+    
+   
+}
+>>>>>>> parent of 2f09e78 (nav bar)
 
