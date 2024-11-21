@@ -2,10 +2,35 @@
     background-color: rgb(239, 239, 238);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.name{
+input{
     color:black;
-    font-size: x-large;
+    font-size: large;
+    border: none;
+    text-align: center;
 }
-.portfolio{
-    font-size: xx-large;
+h1{
+    font-size: 100px;
+    background-color: rgb(215, 213, 210);
+    padding: 10px;
 }
+.box {
+    width: 250px; 
+    height: 200px; 
+    background-color:rgb(215, 213, 210); 
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .box:hover {
+    transform: scale(1.1);
+  }
