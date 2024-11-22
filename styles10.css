@@ -1,12 +1,14 @@
 *{
     background-color: rgb(213,213,222);
-      font-family:Verdana, Geneva, Tahoma, sans-serif
+   
+      
   }
   input{
-      color:black;
+     
       font-size: large;
       border: none;
       text-align: center;
+      margin-left:550px;
   }
   h1{
       font-size: 50px;
@@ -21,10 +23,12 @@
       justify-content: center;
       align-items: center;
       text-align: center;
+      border-radius: 25px;
     }
     .container {
       display: flex;
       justify-content: space-between;
+      
     }
     .container2 {
       display: flex;
@@ -36,4 +40,42 @@
     }
     .box:hover {
       transform: scale(1.1);
+    }
+    .portfolio{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color:blue;
+      margin-left:500px;
+    }
+    .box1{
+      width: 600px; 
+      height: 500px; 
+      background-color: rgb(170, 166, 181); 
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border-radius: 25px;
+    }
+    .box2{
+      width: 600px; 
+      height: 500px; 
+      background-color: rgb(170, 166, 181); 
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border-radius: 25px;
+    }
+    .box3{
+      width: 600px; 
+      height: 500px; 
+      background-color: rgb(170, 166, 181); 
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border-radius: 25px;
     }
