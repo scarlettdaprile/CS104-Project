@@ -1,4 +1,23 @@
 *{
-    background-color: rgb(88, 88, 88);
+    background-color: rgb(239,239,238);
+   
     
+}
+.text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(39, 62, 43);
+    font-size: 25px ;
+    margin-top: 200px;
+    margin-right:100px;
+    margin-left:100px;
+}
+.heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 50px ;
+    text-align:center;
+    margin-top:50px;
+    margin-bottom:20px;
+    text-decoration:underline;
+   
 }
