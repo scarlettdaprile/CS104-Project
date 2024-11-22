@@ -31,8 +31,11 @@
     color:rgb(88, 88, 88);
     border: none;
     border-radius: 5%;
+    margin-right: 130px;
+    margin-left:95px;
     text-decoration: none;
+    
 }
-.box:hover{
+.button:hover{
     transform: scale(1.1);
   }
