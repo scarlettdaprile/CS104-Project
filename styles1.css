@@ -41,8 +41,9 @@ div{
 li{
     text-align:center;
     font-size:25px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:rgb(39, 62, 43);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    list-style-type: none;
         }
 #names{
     text-align:center;
@@ -51,42 +52,40 @@ li{
     background:white;
     padding:30px;
     border-radius: 20px;
-    height:200px;
-    width:300px;
+    height:150px;
+    width:270px;
     display:block;
     margin-left:35%;
     margin-top:20px;
 }
-#first{
-    color:rgb(39, 62, 43);
+ #first{
     background-color:white;
-    padding:20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+    padding:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
 }
 #last{
-    color:rgb(39, 62, 43);
     background-color:white;
-    padding:20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+    padding:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+} 
 button{
     width: 80px;
     height:40px;
-    padding: 10px;
-    background-color: #28a745;
+    padding: 5px;
+    background-color: #4a4a4a;
     color:rgb(255, 255, 255);
     border: none;
     border-radius: 4px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor:pointer;
-    transition-duration:2s;  
+    transition-duration:1s;  
 }
 button:hover{
-    transform:scale(2);
+    transform:scale(1.2);
 }
 .logo{
     margin-top:250px;
-     margin-left:320px;
+     margin-left:350px;
     background-image:url('Screenshot (41).png');
     background-size:cover;
     width:600px;
@@ -104,7 +103,7 @@ button:hover{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-left: 550px
+    margin-left: 550px;
   }
   #navbar li {
     float: left;
@@ -116,7 +115,7 @@ button:hover{
     padding: 20px 20px;
     text-decoration: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px
+    font-size: 20px;
   }
 .navbar{
     list-style-type: none;
