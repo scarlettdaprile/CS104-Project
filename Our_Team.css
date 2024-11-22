@@ -3,7 +3,48 @@
    
     
 }
-.intro{
+.intro1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: antiquewhite;
+    color: rgb(39, 62, 43);
+    font-size: 25px ;
+    flex-grow:1;
+}
+.image1{
+    margin-bottom:10px;
+    height:auto;
+    
+}
+.container1{
+    display: flex;
+    align-items: center;
+}
+.intro2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(39, 62, 43);;
+    font-size: 25px ;
+    flex-grow:1;
+}
+.image2{
+    margin-bottom:20px;
+    height:auto;
+}
+.container2{
+    display:flex;
+    align-items:center;
+    flex-direction:row-reverse;
+}
+.container3{
+    display: flex;
+    align-items: center;
+}
+.intro3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(39, 62, 43);
+    font-size: 25px ;
+    flex-grow:1;
+}
+.heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    font-size: 35px ;
 }
