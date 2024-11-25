@@ -4,18 +4,23 @@
 body{
     position:relative;
 }
-div{
+/* div{
     height:150px;
     width:150px;
-}
+} */
+
+
 .heading{
+    display: flex;
+    flex-direction: column; /*make the heading vertically stacked*/
+    /* margin: 24px; */
     position: fixed;
     top:0px;
     left:0px;
     width: 100vw;
     text-align:center;  
 }
-.box1{ /*this defines a generic class box1*/
+.box1{ /*this defines a generic class box1, title at the top*/
     color:white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:24px;
@@ -31,6 +36,22 @@ li.header{ /*li with class="header" for the header*/
     color:white;
     list-style-type: none;
 }
+li.header a{ /*a element within li with class="header"*/
+    text-decoration:none;
+    color:white;
+    background-color: #3e3e3e;
+}
+ul.navbar {
+    display: flex;
+    top: 0;
+    width: 100%;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    background-color: #3e3e3e;
+}
+
+
 .mission-statement{
     text-align:center;
     font-size:70px;
@@ -93,24 +114,7 @@ button:hover{
     height:400px;
     position:static;  
 }
-ul.navbar {
-    display: flex;
 
-    position: fixed;
-    top: 0;
-    width: 100%;
-
-    vertical-align: middle;
-    margin: 24;
-    padding: 0;
-    background-color: rgb(39, 62, 43);
-  }
-  /* #navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-left: 550px;
-  } */
   /* #navbar li {
     float: left;
   }
