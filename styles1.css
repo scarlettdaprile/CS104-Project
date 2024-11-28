@@ -4,12 +4,22 @@
 body{
     position:relative;
 }
+footer{
+    text-align: center;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 60px
+}
 /* div{
     height:150px;
     width:150px;
+} Don't classify things as div */
+
+/* #New_account{
+    background-color: white;
+    text-decoration: none;
 } */
-
-
+ 
 .heading{
     display: flex;
     flex-direction: column; /*make the heading vertically stacked*/
@@ -23,7 +33,7 @@ body{
 .box1{ /*this defines a generic class box1, title at the top*/
     color:white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size:24px;
+    font-size:45px;
     width:100%;
    margin:auto;
    font-weight: bold; 
@@ -50,20 +60,23 @@ ul.navbar {
     padding: 0;
     background-color: #3e3e3e;
 }
-
-
+.container{
+    display: flex;
+text-align:center;
+}
 .mission-statement{
-    text-align:center;
-    font-size:70px;
+    /* text-align:center; */
+    font-size:30px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:white;
-    top:200px;
+    margin-top:200px;
     width:700px;
-    margin-left:400px;
+    /* margin-left:400px; */
+    
 }
 .box2{
     text-align:center;
-    font-size:40px;
+    font-size:30px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:white;  
 }
@@ -73,12 +86,12 @@ ul.navbar {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background:white;
     padding:30px;
-    border-radius: 20px;
-    height:150px;
+    height:250px;
     width:270px;
     display:block;
-    margin-left:35%;
-    margin-top:20px;
+    /* margin-left:35%; */
+    margin-top:500px;
+    margin-right: 100px;
 }
  #first{
     background-color:white;
@@ -100,18 +113,21 @@ button{
     border-radius: 4px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor:pointer;
-    transition-duration:1s;  
+    transition-duration:0.5s;
+}
+button a{
+    text-decoration: none;
 }
 button:hover{
-    transform:scale(1.2);
+    transform:scale(1.1);
 }
 .logo{
-    margin-top:250px;
-     margin-left:350px;
+    margin-top:100px;
+     margin-left:20px;
     background-image:url('Screenshot (41).png');
     background-size:cover;
     width:600px;
-    height:400px;
+    height:500px;
     position:static;  
 }
 
