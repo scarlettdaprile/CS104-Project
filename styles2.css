@@ -38,6 +38,9 @@
     text-decoration: none;
     margin-top: 20px;
 }
+a.button{
+    text-decoration: none;
+}
 .button:hover{
      transition: scale(1.2);
      
