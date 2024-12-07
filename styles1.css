@@ -125,10 +125,11 @@ button:hover{
     margin-top:100px;
      margin-left:20px;
     background-image:url('Screenshot (41).png');
-    background-size:cover;
+    background-size:contain;
     width:600px;
-    height:500px;
+    height:700px;
     position:static;  
+    background-repeat: no-repeat;
 }
 
   /* #navbar li {
