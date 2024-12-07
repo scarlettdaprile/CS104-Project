@@ -146,5 +146,12 @@ a.New_account{
   font-size: 17px
 }
 
-
+footer {
+   
+    color: white; 
+    text-align: center; 
+    position:absolute;
+    font-size: 14px; 
+    bottom:0;
+}
 
