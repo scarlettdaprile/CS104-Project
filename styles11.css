@@ -5,7 +5,7 @@ textarea{
     background-color: white;
 }
 button{
-    width: 80px;
+    width: 150px;
     height:40px;
     padding: 5px;
     background-color: #4a4a4a;
@@ -15,5 +15,7 @@ button{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor:pointer;
     transition-duration:0.5s;}
+
     button:hover{
         transform:scale(1.1);}
+

@@ -19,7 +19,7 @@ footer{
     background-color: white;
     text-decoration: none;
 } */
- 
+
 .heading{
     display: flex;
     flex-direction: column; /*make the heading vertically stacked*/
@@ -114,9 +114,6 @@ button{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor:pointer;
     transition-duration:0.5s;
-}
-button a{
-    text-decoration: none;
 }
 button:hover{
     transform:scale(1.1);
