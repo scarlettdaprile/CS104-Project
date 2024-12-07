@@ -90,7 +90,7 @@ text-align:center;
     width:270px;
     display:block;
     /* margin-left:35%; */
-    margin-top:500px;
+     margin-top:500px;
     margin-right: 100px;
 }
  #first{
@@ -114,9 +114,11 @@ button{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor:pointer;
     transition-duration:0.5s;
+    
 }
 button a{
     text-decoration: none;
+    
 }
 button:hover{
     transform:scale(1.1);
