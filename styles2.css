@@ -37,6 +37,21 @@
     border-radius: 10%;
     text-decoration: none;
     margin-top: 20px;
+    box-shadow:none;
+    border:none;
+    outline:none;
+   
+}
+
+
+
+a.button{
+    text-decoration: none;
+    box-shadow:none;
+    border:none;
+    outline:none;
+    
+    
 }
 
 .button:hover{
